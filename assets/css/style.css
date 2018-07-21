@@ -1,0 +1,67 @@
+body {
+    font-family: 'Aldrich';
+    background-image:url(../images/ralf-schramm-480237-unsplash.jpg);
+    background-repeat: repeat;
+    text-align: center;
+       -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    text-align: center;
+    background-color: #f0f4c3;
+
+}
+
+h1, h2 {
+    background-color: #e6ee9c;
+    padding: 10px;
+    word-spacing: 3px;
+    text-align: center;
+   
+}
+
+h1 {
+    font-size: 90px;
+    text-shadow: 2px 2px;
+    letter-spacing: 10.5px;
+    padding: 50px;
+    background:linear-gradient(to right, #e6ee9c,  #f9fbe7)
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 1px 1px;
+    letter-spacing: 4px;
+    background:linear-gradient(to left, #e6ee9c,  #f9fbe7)
+}
+
+
+#schedule {
+    padding: 24px; 
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #f0f4c3;
+    background:linear-gradient(to right, #e6ee9c,  #f9fbe7)
+}
+
+thead {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table>tbody>tr:hover {
+    padding: 20px;
+    background-color: #f9fbe7 !important;
+}
+.submit-train-container{
+    background-color: #f0f4c3;
+    background:linear-gradient(to left, #e6ee9c,  #f9fbe7)
+
+}
+.addTrain {
+    padding: 25px;
+}
+
+#add-Train{
+    color: white;
+    background:black
+}
